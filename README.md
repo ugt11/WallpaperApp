@@ -11,7 +11,7 @@
 <br><br>
 
 ## タグ検索
-
+色別に画像を表示できるようにしました。
 
 ## プレビュー(Gifアニメーション)
 ![Simulator Screen Recording - iPhone 14 Pro - 2024-07-09 at 16 03 34](https://github.com/ugt11/WallpaperApp/assets/168057327/3273bf74-5eb6-4dfd-a00a-1387b4902a4e)

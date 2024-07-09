@@ -10,7 +10,6 @@ import UIKit
 class TagViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
     
     @IBOutlet weak var collectionView: UICollectionView!
-    
     @IBOutlet weak var redButton: UIButton!
     @IBOutlet weak var blueButton: UIButton!
     @IBOutlet weak var greenButton: UIButton!
@@ -20,11 +19,10 @@ class TagViewController: UIViewController, UICollectionViewDataSource, UICollect
     
     var photoURLs: [URL] = []
     var tagModel = TagModel()
+    var selectedButton: UIButton?
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-       
         
         // DataSourceとDelegateを設定する
         collectionView.dataSource = self
@@ -35,6 +33,12 @@ class TagViewController: UIViewController, UICollectionViewDataSource, UICollect
         
         // 初期の色でsearchPhotosメソッドを呼び出す
         searchPhotos(with: "red")
+        
+        selectedButton = redButton
+        selectedButton?.tintColor = .white
+        selectedButton?.backgroundColor = .black
+        selectedButton?.layer.cornerRadius = 7
+        
     }
 
     func searchPhotos(with color: String) {
@@ -44,7 +48,7 @@ class TagViewController: UIViewController, UICollectionViewDataSource, UICollect
                 DispatchQueue.main.async {
                     self.collectionView.reloadData()
                 }
-                print("取得した写真の数: \(fetchedPhotoData.count)")
+                
             case .failure(let error):
                 // エラーの場合の処理
                 print("写真の取得に失敗しました:", error)
@@ -52,28 +56,53 @@ class TagViewController: UIViewController, UICollectionViewDataSource, UICollect
         }
     }
     @IBAction func searchRedPhotos(_ sender: UIButton) {
-            searchPhotos(with: "red")
+        updateSelectedButton(sender)
+        searchPhotos(with: "red")
+    }
+
+    @IBAction func searchBluePhotos(_ sender: UIButton) {
+        updateSelectedButton(sender)
+        searchPhotos(with: "blue")
+    }
+
+    @IBAction func searchGreenPhotos(_ sender: UIButton) {
+        updateSelectedButton(sender)
+        searchPhotos(with: "green")
+    }
+
+    @IBAction func searchYellowPhotos(_ sender: UIButton) {
+        updateSelectedButton(sender)
+        searchPhotos(with: "yellow")
+    }
+
+    @IBAction func searchWhitePhotos(_ sender: UIButton) {
+        updateSelectedButton(sender)
+        searchPhotos(with: "white")
+    }
+
+    @IBAction func searchBlackPhotos(_ sender: UIButton) {
+        updateSelectedButton(sender)
+        searchPhotos(with: "black")
+    }
+    
+    func updateSelectedButton(_ button: UIButton) {
+        // 前回選択されていたボタンの状態を戻す
+        if let previousButton = selectedButton {
+            previousButton.isSelected = false
+            previousButton.backgroundColor = previousButton.titleColor(for: .normal)
+            previousButton.tintColor = .black
+            previousButton.layer.cornerRadius = 0
         }
         
-        @IBAction func searchBluePhotos(_ sender: UIButton) {
-            searchPhotos(with: "blue")
-        }
+        // 新しく選択されたボタンの状態を更新する
+        button.isSelected = true
+        button.backgroundColor = .black
+        button.tintColor = .white
+        button.layer.cornerRadius = 7
         
-        @IBAction func searchGreenPhotos(_ sender: UIButton) {
-            searchPhotos(with: "green")
-        }
-        
-        @IBAction func searchYellowPhotos(_ sender: UIButton) {
-            searchPhotos(with: "yellow")
-        }
-        
-        @IBAction func searchWhitePhotos(_ sender: UIButton) {
-            searchPhotos(with: "white")
-        }
-        
-        @IBAction func searchBlackPhotos(_ sender: UIButton) {
-            searchPhotos(with: "black")
-        }
+        selectedButton = button
+    }
+
     
     // セクション内のアイテム数を返す
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -135,7 +164,6 @@ class TagViewController: UIViewController, UICollectionViewDataSource, UICollect
                 let selectedPhotoData = tagModel.photos?[indexPath.item]
                 let destinationViewController = segue.destination as! DetailViewController
                 destinationViewController.photoData = selectedPhotoData
-                print("Segueで送った情報: \(selectedPhotoData)")
             }
         }
     }

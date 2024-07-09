@@ -14,7 +14,7 @@ class TagModel {
     func searchPhotos(with color: String, completion: @escaping (Result<[PhotoData], Error>) -> Void) {
         let query = "\(color)"
         let encodedQuery = query.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)!
-        let urlString = "https://api.unsplash.com/search/photos?query=\(encodedQuery)&per_page=20&client_id=\(accessKey)"
+        let urlString = "https://api.unsplash.com/search/photos?query=\(encodedQuery)&per_page=21&client_id=\(accessKey)"
         
         guard let url = URL(string: urlString) else {
             print("Invalid URL")

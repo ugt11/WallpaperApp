@@ -22,8 +22,24 @@ struct PhotoData: Codable {
     }
 }
 
-struct SearchResponse: Codable {
-    let results: [PhotoData]
+struct UserData: Codable {
+    let username: String?
+    let name: String?
+    
+    private enum CodingKeys: String, CodingKey {
+        case username
+        case name
+    }
+}
+
+struct PhotoURLs: Codable {
+    let regular: URL?
+    let full: URL?
+    
+    private enum CodingKeys: String, CodingKey {
+        case regular
+        case full
+    }
 }
 
 struct PhotoTitle: Codable {
@@ -34,23 +50,7 @@ struct PhotoTitle: Codable {
     }
 }
 
-
-struct PhotoURLs: Codable {
-    let regular: URL?
-    
-    private enum CodingKeys: String, CodingKey {
-        case regular
-    }
-}
-
-
-struct UserData: Codable {
-    let username: String?
-    let name: String?
-    
-    private enum CodingKeys: String, CodingKey {
-        case username
-        case name
-    }
+struct SearchResponse: Codable {
+    let results: [PhotoData]
 }
 

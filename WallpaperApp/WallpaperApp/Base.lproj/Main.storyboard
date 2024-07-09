@@ -59,7 +59,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="idL-hJ-ycy">
-                                        <rect key="frame" x="0.0" y="33" width="88" height="29"/>
+                                        <rect key="frame" x="0.0" y="33" width="88" height="31.333333333333329"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="88" id="p7z-4G-Z3L"/>
                                         </constraints>
@@ -69,14 +69,14 @@
                                             <backgroundConfiguration key="background" cornerRadius="7" strokeWidth="1" strokeOutset="0.0">
                                                 <color key="strokeColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </backgroundConfiguration>
-                                            <fontDescription key="titleFontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="15"/>
+                                            <fontDescription key="titleFontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
                                         </buttonConfiguration>
                                         <connections>
                                             <action selector="searchRedPhotos:" destination="Oqp-Ae-D3n" eventType="touchUpInside" id="ubu-Yq-dL3"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v9j-O5-D1n">
-                                        <rect key="frame" x="100" y="33" width="95" height="29"/>
+                                        <rect key="frame" x="100" y="33" width="95" height="31.333333333333329"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="95" id="GKj-Xv-zQK"/>
                                         </constraints>
@@ -86,14 +86,14 @@
                                             <backgroundConfiguration key="background" cornerRadius="7" strokeWidth="1">
                                                 <color key="strokeColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </backgroundConfiguration>
-                                            <fontDescription key="titleFontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="15"/>
+                                            <fontDescription key="titleFontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
                                         </buttonConfiguration>
                                         <connections>
                                             <action selector="searchBluePhotos:" destination="Oqp-Ae-D3n" eventType="touchUpInside" id="Kd5-fs-f6t"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zwq-yf-hzS">
-                                        <rect key="frame" x="0.0" y="74" width="110" height="29"/>
+                                        <rect key="frame" x="0.0" y="76.333333333333343" width="110" height="31.333333333333329"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="110" id="bFA-8C-BgL"/>
                                         </constraints>
@@ -103,14 +103,14 @@
                                             <backgroundConfiguration key="background" cornerRadius="7" strokeWidth="1">
                                                 <color key="strokeColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </backgroundConfiguration>
-                                            <fontDescription key="titleFontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="15"/>
+                                            <fontDescription key="titleFontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
                                         </buttonConfiguration>
                                         <connections>
                                             <action selector="searchYellowPhotos:" destination="Oqp-Ae-D3n" eventType="touchUpInside" id="rFC-MG-wsI"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qbq-9N-SjM">
-                                        <rect key="frame" x="122" y="74" width="103" height="29"/>
+                                        <rect key="frame" x="122" y="76.333333333333343" width="103" height="31.333333333333329"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="103" id="fn7-0k-WjB"/>
                                         </constraints>
@@ -120,14 +120,14 @@
                                             <backgroundConfiguration key="background" cornerRadius="7">
                                                 <color key="strokeColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </backgroundConfiguration>
-                                            <fontDescription key="titleFontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="15"/>
+                                            <fontDescription key="titleFontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
                                         </buttonConfiguration>
                                         <connections>
                                             <action selector="searchWhitePhotos:" destination="Oqp-Ae-D3n" eventType="touchUpInside" id="hlW-DQ-aZc"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CGv-ir-Jvm">
-                                        <rect key="frame" x="237" y="74" width="104" height="29"/>
+                                        <rect key="frame" x="237" y="76.333333333333343" width="104" height="31.333333333333329"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="104" id="mOC-Tx-w4d"/>
                                         </constraints>
@@ -137,14 +137,14 @@
                                             <backgroundConfiguration key="background" cornerRadius="7">
                                                 <color key="strokeColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </backgroundConfiguration>
-                                            <fontDescription key="titleFontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="15"/>
+                                            <fontDescription key="titleFontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
                                         </buttonConfiguration>
                                         <connections>
                                             <action selector="searchBlackPhotos:" destination="Oqp-Ae-D3n" eventType="touchUpInside" id="9Jc-Bz-Ktg"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iBv-t5-GiL">
-                                        <rect key="frame" x="207" y="33" width="107" height="29"/>
+                                        <rect key="frame" x="207" y="33" width="107" height="31.333333333333329"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="107" id="3VD-f8-yRG"/>
                                         </constraints>
@@ -156,7 +156,7 @@
                                             <backgroundConfiguration key="background" cornerRadius="7" strokeWidth="1">
                                                 <color key="strokeColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </backgroundConfiguration>
-                                            <fontDescription key="titleFontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="15"/>
+                                            <fontDescription key="titleFontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
                                         </buttonConfiguration>
                                         <connections>
                                             <action selector="searchGreenPhotos:" destination="Oqp-Ae-D3n" eventType="touchUpInside" id="trc-sz-Y9J"/>
@@ -183,7 +183,7 @@
                                 </constraints>
                             </view>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="5bs-nk-8ZX">
-                                <rect key="frame" x="0.0" y="218" width="393" height="600"/>
+                                <rect key="frame" x="0.0" y="209" width="393" height="609"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="fnJ-zI-Cjj">
                                     <size key="itemSize" width="128" height="128"/>
@@ -212,7 +212,7 @@
                         <constraints>
                             <constraint firstItem="UYh-Ai-7Iz" firstAttribute="trailing" secondItem="mng-LW-PBJ" secondAttribute="trailing" constant="15" id="IsH-d3-sFX"/>
                             <constraint firstItem="UYh-Ai-7Iz" firstAttribute="bottom" secondItem="5bs-nk-8ZX" secondAttribute="bottom" id="KEZ-ql-az5"/>
-                            <constraint firstItem="5bs-nk-8ZX" firstAttribute="top" secondItem="mng-LW-PBJ" secondAttribute="bottom" constant="30" id="SHT-Io-3Z4"/>
+                            <constraint firstItem="5bs-nk-8ZX" firstAttribute="top" secondItem="mng-LW-PBJ" secondAttribute="bottom" constant="21" id="SHT-Io-3Z4"/>
                             <constraint firstItem="mng-LW-PBJ" firstAttribute="leading" secondItem="UYh-Ai-7Iz" secondAttribute="leading" constant="15" id="arg-EO-9N3"/>
                             <constraint firstItem="UYh-Ai-7Iz" firstAttribute="trailing" secondItem="5bs-nk-8ZX" secondAttribute="trailing" id="lB8-lk-Ppc"/>
                             <constraint firstItem="5bs-nk-8ZX" firstAttribute="leading" secondItem="UYh-Ai-7Iz" secondAttribute="leading" id="qbk-vG-bP6"/>
@@ -233,6 +233,40 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hLm-fk-YcZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="905" y="29"/>
+        </scene>
+        <!--Web Kit View Controller-->
+        <scene sceneID="g89-kH-oap">
+            <objects>
+                <viewController id="Yjv-qk-Q2X" customClass="WebKitViewController" customModule="WallpaperApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qNT-lt-154">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wKk-VK-0G0">
+                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="8U5-Gc-em4"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="8U5-Gc-em4" firstAttribute="trailing" secondItem="wKk-VK-0G0" secondAttribute="trailing" id="XNs-WN-tBN"/>
+                            <constraint firstItem="8U5-Gc-em4" firstAttribute="bottom" secondItem="wKk-VK-0G0" secondAttribute="bottom" id="eVh-bT-RnU"/>
+                            <constraint firstItem="wKk-VK-0G0" firstAttribute="top" secondItem="8U5-Gc-em4" secondAttribute="top" id="hvp-Oe-stx"/>
+                            <constraint firstItem="wKk-VK-0G0" firstAttribute="leading" secondItem="8U5-Gc-em4" secondAttribute="leading" id="ucT-tH-h4g"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="webView" destination="wKk-VK-0G0" id="Lmy-Jb-Wk4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LA4-An-mcq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1969" y="330"/>
         </scene>
         <!--App View Controller-->
         <scene sceneID="Z68-50-nwJ">
@@ -267,7 +301,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tlJ-9b-S0v">
-                                <rect key="frame" x="15" y="242" width="360" height="54"/>
+                                <rect key="frame" x="15" y="248" width="360" height="54"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="0Tg-UX-2ln">
                                         <rect key="frame" x="0.0" y="0.0" width="360" height="54"/>
@@ -277,6 +311,9 @@
                                         <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                        <connections>
+                                            <action selector="webButton:" destination="DhD-Xq-bNo" eventType="touchUpInside" id="ZJj-H4-UDy"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -297,7 +334,7 @@
                         <viewLayoutGuide key="safeArea" id="2bc-XI-uCb"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="tlJ-9b-S0v" firstAttribute="top" secondItem="uWF-fG-jRK" secondAttribute="bottom" constant="12" id="3Sd-Y0-udi"/>
+                            <constraint firstItem="tlJ-9b-S0v" firstAttribute="top" secondItem="uWF-fG-jRK" secondAttribute="bottom" constant="18" id="3Sd-Y0-udi"/>
                             <constraint firstItem="VYQ-Ei-niI" firstAttribute="leading" secondItem="2bc-XI-uCb" secondAttribute="leading" constant="15" id="BJO-uT-EZa"/>
                             <constraint firstItem="kKR-Q7-nkU" firstAttribute="top" secondItem="VYQ-Ei-niI" secondAttribute="bottom" constant="30" id="LzE-SQ-f2U"/>
                             <constraint firstItem="uWF-fG-jRK" firstAttribute="leading" secondItem="2bc-XI-uCb" secondAttribute="leading" constant="15" id="WWi-gP-iWA"/>
@@ -466,44 +503,50 @@
         <!--Detail Expansion View Controller-->
         <scene sceneID="PNE-mY-AyK">
             <objects>
-                <viewController id="ff2-8X-DUX" customClass="DetailExpansionViewController" customModule="WallpaperApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DetailExpansionViewController" id="ff2-8X-DUX" customClass="DetailExpansionViewController" customModule="WallpaperApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LM1-z0-OXQ">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Eds-v7-eWH">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PQo-Hj-Jkk">
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="bYy-0g-NhJ">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Tyq-yK-vsy">
                                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                                     </imageView>
                                 </subviews>
-                                <color key="backgroundColor" red="0.25682608316643074" green="0.25682608316643074" blue="0.25682608316643074" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstItem="bYy-0g-NhJ" firstAttribute="top" secondItem="Eds-v7-eWH" secondAttribute="top" id="Avr-E6-KP2"/>
-                                    <constraint firstAttribute="trailing" secondItem="bYy-0g-NhJ" secondAttribute="trailing" id="GYE-Uw-7V2"/>
-                                    <constraint firstItem="bYy-0g-NhJ" firstAttribute="leading" secondItem="Eds-v7-eWH" secondAttribute="leading" id="WVM-N8-OAb"/>
-                                    <constraint firstAttribute="bottom" secondItem="bYy-0g-NhJ" secondAttribute="bottom" id="hKU-vU-r6b"/>
+                                    <constraint firstItem="Tyq-yK-vsy" firstAttribute="width" secondItem="PQo-Hj-Jkk" secondAttribute="width" id="6Se-a1-AdL"/>
+                                    <constraint firstAttribute="bottom" secondItem="Tyq-yK-vsy" secondAttribute="bottom" id="8LZ-Ef-uJG"/>
+                                    <constraint firstItem="Tyq-yK-vsy" firstAttribute="top" secondItem="PQo-Hj-Jkk" secondAttribute="top" id="SRP-zG-XJE"/>
+                                    <constraint firstItem="Tyq-yK-vsy" firstAttribute="height" secondItem="PQo-Hj-Jkk" secondAttribute="height" id="WNN-DU-mya"/>
+                                    <constraint firstAttribute="trailing" secondItem="Tyq-yK-vsy" secondAttribute="trailing" id="pgZ-pv-Car"/>
+                                    <constraint firstItem="Tyq-yK-vsy" firstAttribute="leading" secondItem="PQo-Hj-Jkk" secondAttribute="leading" id="ruh-OL-Han"/>
                                 </constraints>
-                            </view>
+                                <connections>
+                                    <outlet property="delegate" destination="ff2-8X-DUX" id="qeU-Mo-ISA"/>
+                                </connections>
+                            </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="77e-B2-7F6"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="Eds-v7-eWH" firstAttribute="leading" secondItem="77e-B2-7F6" secondAttribute="leading" id="ISD-GH-Mmo"/>
-                            <constraint firstItem="Eds-v7-eWH" firstAttribute="top" secondItem="77e-B2-7F6" secondAttribute="top" id="MxA-vY-4uI"/>
-                            <constraint firstItem="77e-B2-7F6" firstAttribute="bottom" secondItem="Eds-v7-eWH" secondAttribute="bottom" id="SbH-Xe-o6y"/>
-                            <constraint firstItem="77e-B2-7F6" firstAttribute="trailing" secondItem="Eds-v7-eWH" secondAttribute="trailing" id="axQ-nR-c8z"/>
+                            <constraint firstItem="PQo-Hj-Jkk" firstAttribute="bottom" secondItem="77e-B2-7F6" secondAttribute="bottom" id="Lhe-Oe-QEw"/>
+                            <constraint firstItem="PQo-Hj-Jkk" firstAttribute="leading" secondItem="77e-B2-7F6" secondAttribute="leading" id="Vha-bi-wBu"/>
+                            <constraint firstItem="PQo-Hj-Jkk" firstAttribute="trailing" secondItem="77e-B2-7F6" secondAttribute="trailing" id="ex4-D4-3Di"/>
+                            <constraint firstItem="PQo-Hj-Jkk" firstAttribute="top" secondItem="77e-B2-7F6" secondAttribute="top" id="xK0-0s-lAk"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="nZO-gd-g0T"/>
                     <connections>
-                        <outlet property="imageView" destination="bYy-0g-NhJ" id="YL8-sV-pIc"/>
+                        <outlet property="imageView" destination="Tyq-yK-vsy" id="vur-Be-9cZ"/>
+                        <outlet property="scrollView" destination="PQo-Hj-Jkk" id="pYz-w5-Von"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PR0-Ye-myT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2902" y="-409"/>
+            <point key="canvasLocation" x="2901.5267175572517" y="-409.15492957746483"/>
         </scene>
         <!--Home View Controller-->
         <scene sceneID="YM3-cA-BEs">

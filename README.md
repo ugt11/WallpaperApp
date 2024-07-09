@@ -14,4 +14,4 @@
 
 
 ## プレビュー(Gifアニメーション)
-![Simulator Screen Recording - iPhone 14 Pro - 2024-07-09 at 15 54 29](https://github.com/ugt11/WallpaperApp/assets/168057327/6b292059-bd30-4790-a6a7-dea363fb934c)
+![Simulator Screen Recording - iPhone 14 Pro - 2024-07-09 at 16 03 34](https://github.com/ugt11/WallpaperApp/assets/168057327/3273bf74-5eb6-4dfd-a00a-1387b4902a4e)

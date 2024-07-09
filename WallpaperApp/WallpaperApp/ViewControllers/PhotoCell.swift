@@ -24,7 +24,6 @@ class PhotoCell: UICollectionViewCell {
         setupViews()
     }
     
-    
     private func setupViews() {
         imageView = UIImageView()
         imageView.contentMode = .scaleAspectFill

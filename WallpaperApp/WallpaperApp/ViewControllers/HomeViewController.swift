@@ -101,7 +101,6 @@ class HomeViewController: UIViewController, UICollectionViewDataSource, UICollec
                 let selectedPhotoData = photoModel.photos?[indexPath.item]
                 let destinationViewController = segue.destination as! DetailViewController
                 destinationViewController.photoData = selectedPhotoData
-                print("Segueで送った情報: \(selectedPhotoData)")
             }
         }
     }
